@@ -10,4 +10,13 @@ class Solution:
         :type head: ListNode
         :rtype: ListNode
         """
-        
+        res, it = 0, head
+        while it != None:
+            res = res*10 + it.val
+            it = it.next
+        res += 1
+        res_head = temp = ListNode(0)
+        for ch in str(res):
+            temp.next = ListNode(int(ch))
+            temp = temp.next
+        return res_head.next
