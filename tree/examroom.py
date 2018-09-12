@@ -1,3 +1,4 @@
+import bisect
 class ExamRoom(object):
 
     def __init__(self, N):
