@@ -1,9 +1,3 @@
-# 利用辅助二维数组mark记录grid中的元素属于哪个岛屿
-
-# 遍历grid，利用BFS标记其中的岛屿，将非0元素替换为其连通区域的大小，并在mark中记录其标号，记录并更新最大值
-
-# 再次遍历grid，尝试将0元素上下左右的岛屿进行加和，记录并更新最大值
-
 class Solution(object):
     def largestIsland(self, grid):
         """
