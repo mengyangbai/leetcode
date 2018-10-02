@@ -2,7 +2,7 @@ import re
 class StringIterator(object):
     def __init__(self, compressedString):
         self.tokens = []
-        for token in re.findall('\D\d+', compressedString):
+        for token in re.findall(r'\D\d+', compressedString):
             self.tokens.append((token[0], int(token[1:])))
         self.tokens = self.tokens[::-1]
 
