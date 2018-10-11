@@ -16,7 +16,7 @@ class Solution(object):
         p = dummyNode
         q = head
 
-        for x in range(m - 1):
+        for _ in range(m - 1):
             p.next = q
             q = q.next
             p = p.next
@@ -24,7 +24,7 @@ class Solution(object):
         start = None
         end = q
         next = None
-        for x in range(m, n + 1):
+        for _ in range(m, n + 1):
             next = q.next
             q.next = start
             start = q
