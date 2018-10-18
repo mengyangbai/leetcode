@@ -7,7 +7,7 @@ class Solution(object):
         N = len(S)
         l = N - 1
         res = ""
-        for i, s in enumerate(S):
+        for _, s in enumerate(S):
             if s.isalpha():
                 while not S[l].isalpha():
                     l -= 1
