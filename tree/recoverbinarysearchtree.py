@@ -7,19 +7,16 @@
 #         self.right = None
 
 class Solution:
-    # @param root, a tree node
-    # @return a tree node
-    def FindTwoNodes(self, root):
-            if root:
-                self.FindTwoNodes(root.left)
-                if self.prev and self.prev.val > root.val:
-                    self.n2 = root
-                    if self.n1 == None: self.n1 = self.prev
-                self.prev = root
-                self.FindTwoNodes(root.right)
     def recoverTree(self, root):
-        self.n1 = self.n2 = None
-        self.prev = None
-        self.FindTwoNodes(root)
-        self.n1.val, self.n2.val = self.n2.val, self.n1.val
-        return root
+        swap = [None, None]
+        self.prev = TreeNode(float('-inf'))
+        def dfs(node):
+            if node:
+                dfs(node.left)
+                if node.val < self.prev.val:
+                    if not swap[0]: swap[0] = self.prev
+                    swap[1] = node
+                self.prev = node
+                dfs(node.right)
+        dfs(root)
+        swap[0].val, swap[1].val = swap[1].val, swap[0].val
