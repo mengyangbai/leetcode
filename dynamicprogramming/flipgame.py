@@ -20,7 +20,7 @@ class Solution:
             if v == '+':
                 curlen += 1
 
-            if (e + 1) == len(s) or v == '-':
+            if e + 1 == len(s) or v == '-':
                 if curlen >= 2:
                     stack.append(curlen)
                 maxlen = max(maxlen,curlen)
