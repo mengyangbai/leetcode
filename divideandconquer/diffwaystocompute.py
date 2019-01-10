@@ -19,8 +19,10 @@ class Solution:
 
         for e,v in enumerate(input):
             if v in "+-*":
-                [left] = self.diffWaysToCompute(input[:e])
-                [right] = self.diffWaysToCompute(input[e+1:])
-                res.append(helper(v,left,right))
+                left = self.diffWaysToCompute(input[:e])
+                right = self.diffWaysToCompute(input[e+1:])
+                for j in left:
+                    for k in right:
+                        res.append(helper(v,j,k))
                 
         return res
