@@ -13,3 +13,4 @@ class Solution:
                     command -= 1
             mx = max(mx, i ** 2 + j ** 2)
         return mx
+        
