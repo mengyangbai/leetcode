@@ -1,3 +1,33 @@
+class MySolution:
+    def isValid(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        if not s:
+            return True
+        
+        dic ={
+            ")":"(",
+            "}":"{",
+            "]":"["
+        }
+
+        stack = []
+
+        for symbol in s:
+            if symbol in dic and dic[symbol] not in stack:
+                return False
+            elif symbol in dic:
+                if stack[-1] != dic[symbol]:
+                    return False
+                else:
+                    stack.pop()
+            else:
+                stack.append(symbol)
+
+        return True if len(stack) == 0 else False
+
 class Solution:
     def isValid(self, s):
         """
@@ -33,7 +63,7 @@ class Solution:
         
         return True if len(stack) == 0 else False
 
-a = Solution()
+a = MySolution()
 print(a.isValid("()"))
 print(a.isValid('''()[]{}'''))
 print(a.isValid("(]"))
