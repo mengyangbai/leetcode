@@ -17,22 +17,22 @@ class Codec:
             return ""
 
         retLevels = []  # list of strings, each string represents a level
-        currLevel = [root]
+        curLevel = [root]
 
-        while currLevel:
+        while curLevel:
             # in each level, write "" as None, and join node vals by ','
             # at the end, join levels by ';'
             currLevelStr = ",".join(
-                str(node.val) if node else "" for node in currLevel)
+                str(node.val) if node else "" for node in curLevel)
             retLevels.append(currLevelStr)
 
             nextLevel = []
-            for node in currLevel:
+            for node in curLevel:
                 if node:
                     nextLevel.append(node.left)
                     nextLevel.append(node.right)
 
-            currLevel = nextLevel
+            curLevel = nextLevel
 
         return ";".join(retLevels)
 
