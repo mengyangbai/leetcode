@@ -13,7 +13,7 @@ class Solution(object):
         dp = [[0]* n for x in range(m)]
         dp[i][j] = 1
         ans = 0
-        for t in range(N):
+        for _ in range(N):
             ndp = [[0] * n for x in range(m)]
             for x in range(m):
                 for y in range(n):
