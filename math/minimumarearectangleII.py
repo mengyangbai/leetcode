@@ -51,5 +51,5 @@ class Solution(object):
         
         return round(res,5) if res != float('inf') else 0
 
-a = Solution()
+a = BetterSolution()
 print(a.minAreaFreeRect([[0,1],[2,1],[1,1],[1,0],[2,0]]))
