@@ -1,0 +1,46 @@
+class BestSolution:
+    def nearestPalindromic(self, n: str) -> str:
+        evenlPal = lambda sp: int(sp + sp[::-1])
+        oddPal = lambda sp: int(sp + sp[::-1][1:])
+
+        sn,n = n, int(n)
+        if len(sn) == 1:
+            return str(n-1)
+        
+        ans = -99999999999999999
+        mid = len(sn) // 2
+        for sp in sn[:mid],sn[:mid+1],str(int(sn[:mid])*10):
+            p = int(sp)
+            for pal in evenlPal,oddPal:
+                for d in -1,0,1:
+                    val = pal(str(p+d))
+                    if val == n: continue
+                    
+                    ans = min(ans,val,key=lambda x:(abs(x-n),x))
+
+
+        return str(ans)
+
+
+class Solution:
+    def nearestPalindromic(self, S: str) -> str:
+        K = len(S)
+        candidates = [str(10**k + d) for k in (K-1, K) for d in (-1, 1)]
+        prefix = S[:(K+1)//2]
+        P = int(prefix)
+        for start in map(str, (P-1, P, P+1)):
+            candidates.append(start + (start[:-1] if K%2 else start)[::-1])
+        
+        def delta(x):
+            return abs(int(S) - int(x))
+        
+        ans = None
+        for cand in candidates:
+            if cand != S and not cand.startswith('00'):
+                if (ans is None or delta(cand) < delta(ans) or
+                        delta(cand) == delta(ans) and int(cand) < int(ans)):
+                    ans = cand
+        return ans
+
+a = BestSolution()
+print(a.nearestPalindromic('127'))
