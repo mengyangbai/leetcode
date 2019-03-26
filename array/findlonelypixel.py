@@ -38,7 +38,7 @@ class MySolution:
         return self.res
 
 '''
- public int findLonelyPixel(char[][] picture) {
+public int findLonelyPixel(char[][] picture) {
     int n = picture.length, m = picture[0].length;
     
     int[] rowCount = new int[n], colCount = new int[m];
