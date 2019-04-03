@@ -28,6 +28,9 @@ class Solution(object):
         length = len(digits)
         res = []
 
+        if not digits:
+            return []
+        
         dfs(0, '', res)
 
         return res
