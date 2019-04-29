@@ -12,126 +12,140 @@
 ## REST API
 Representational state transfer, it is a set of rule that developer follow when they create their API
 A request is made of
-The endpoint
-The method
-The headers
-The data (or body)
+* The endpoint
+* The method
+* The headers
+* The data (or body)
 
--- AWS API GATE AWAY
+## AWS API GATEWAY
+https://www.phodal.com/blog/serverless-development-guide-use-s3-api-gateway-create-crud/
 
--- DNS
-Domain Name System -- From address to ip address
+## DNS
+Domain Name System -- From address to ip address \
 http://www.ruanyifeng.com/blog/2016/06/dns.html
 
--- HTTP
-Hyper Text Transfer Protocol
-Base on TCP/IP
+## HTTP
+Hyper Text Transfer Protocol\
+Base on TCP/IP\
 https://www.jianshu.com/p/80e25cb1d81a
 
--- SSL
-Secure Sockets Layer
-HTTP+SSL = HTTPS
+## SSL
+Secure Sockets Layer \
+HTTP+SSL = HTTPS\
 https://www.jianshu.com/p/36b3b54b6c99
 
--- SMTP
-Simple mail transfer protocal
-POP3 only recieve
+## SMTP
+Simple mail transfer protocal\
+POP3 only recieve\
 IMAP sync
 
--- TCP
-Transmission Control Protocol
+## TCP
+Transmission Control Protocol\
 https://www.jianshu.com/p/ef892323e68f
 
 
-Exposure to security concepts / methodologies
+## Exposure to security concepts / methodologies
+* Least Privilage
 
+# linux一系列问题
+## Boot up system
+1) BIOS (Basic Input Output System)
+2) Stage 1 boot loader (MBR)
+3) Stage 2 boot loader.
+4) Kernel stage
+5) INIT
 
-- linux一系列问题
--- iperf
-Test network bandwidth
+https://www.crybit.com/linux-boot-process/
+
+## Linux file system
+https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html
+## iperf
+Test network bandwidth\
 https://www.jianshu.com/p/c25eb24e987e
 
--- MTR
-PING - ICMP
+## MTR
+PING - ICMP\
 https://www.jianshu.com/p/802010d54849
 
--- traceroute,
+## traceroute
 https://www.jianshu.com/p/3806f1800d1e
 
--- dig
-通过dns协议查询ip地址信息
-A - address
-NS - name server
+## dig
+通过dns协议查询ip地址信息\
+A - address\
+NS - name server\
 
 
-- 项目一系列问题
-· Experience handling full application stacks from the OS up through custom applications
+# 项目一系列问题
+## Experience handling full application stacks from the OS up through custom applications
 
-- leadership 一系列问题
+# leadership 一系列问题
 
-Customer Obsession: Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers. 专注于客户
+* Customer Obsession: Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers. 专注于客户
 
-Ownership: Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job.” 有所有事情负责任的感觉
+* Ownership: Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job.” 有所有事情负责任的感觉
 
-Invent and Simplify: Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.” As we do new things, we accept that we may be misunderstood for long periods of time. 如果发现什么东西，你就发明个东西简化这个流程
+* Invent and Simplify: Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.” As we do new things, we accept that we may be misunderstood for long periods of time. 如果发现什么东西，你就发明个东西简化这个流程
 
-Are Right, A Lot: Leaders are right a lot. They have strong business judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs. 需要多方面的判断，然后确认这个事情如何
+* Are Right, A Lot: Leaders are right a lot. They have strong business judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs. 需要多方面的判断，然后确认这个事情如何
 
-Hire and Develop the Best: Leaders raise the performance bar with every hire and promotion. They recognise exceptional talent, and willingly move them throughout the organisation. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.在招人的时候选择最好的，给他们最合适的发展路线
+* Hire and Develop the Best: Leaders raise the performance bar with every hire and promotion. They recognise exceptional talent, and willingly move them throughout the organisation. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.在招人的时候选择最好的，给他们最合适的发展路线
 
-Insist on the Highest Standards: Leaders have relentlessly high standards – many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed. 要坚持所有事情的最好标准
+* Insist on the Highest Standards: Leaders have relentlessly high standards – many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed. 要坚持所有事情的最好标准
 
-Think Big: Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.  从小见大，想的更长远
+* Think Big: Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.  从小见大，想的更长远
 
-Bias for Action: Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking. 想事情要想多方面，考虑后果，综合计算
+* Bias for Action: Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking. 想事情要想多方面，考虑后果，综合计算
 
-Frugality: Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense. 节俭，用最小的代价去的最大的收获
+* Frugality: Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense. 节俭，用最小的代价去的最大的收获
 
-Learn and Be Curious: Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them. 保持对所有事情的好奇心
+* Learn and Be Curious: Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them. 保持对所有事情的好奇心
 
-Earn Trust: Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team’s body odor smells of perfume. They benchmark themselves and their teams against the best. 详细倾听，言语和善去赢的信任
+* Earn Trust: Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team’s body odor smells of perfume. They benchmark themselves and their teams against the best. 详细倾听，言语和善去赢的信任
 
-Dive Deep: Leaders operate at all levels, stay connected to the details, audit frequently, and are sceptical when metrics and anecdote differ. No task is beneath them. 可以钻下去，关注细节
+* Dive Deep: Leaders operate at all levels, stay connected to the details, audit frequently, and are sceptical when metrics and anecdote differ. No task is beneath them. 可以钻下去，关注细节
 
-Have Backbone; Disagree and Commit: Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly. 有底线，并且不同意而且也权力去做
+* Have Backbone; Disagree and Commit: Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly. 有底线，并且不同意而且也权力去做
 
-Deliver Results: Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. 关注与输出结果
+* Deliver Results: Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. 关注与输出结果
 
-- AWS
-· Experience handling full application stacks from the OS up through custom applications
+# AWS
+## Experience handling full application stacks from the OS up through custom applications
 
--- Messaging and Queueing experience
+## Messaging and Queueing experience
 
 A message queue is a form of asynchronous service-to-service communication used in serverless and microservices architectures. Messages are stored on the queue until they are processed and deleted. Each message is processed only once, by a single consumer. Message queues can be used to decouple heavyweight processing, to buffer or batch work, and to smooth spiky workloads.
 
 Below are several resources to help you better understand message queues in the broad sense. To learn about message queues on AWS, visit our Amazon Simple Queue Service (SQS) website.
 
-- java一系列问题
-overriding and overloading
+# java一系列问题
+overriding and overloading\
 https://www.programcreek.com/2009/02/overriding-and-overloading-in-java-with-examples/
--- overriding 同一方法不同继承
--- overloading 同一方法 不同参数
+* overriding 同一方法不同继承
+* overloading 同一方法 不同参数
 
-- 数据库一系列问题
+# 数据库一系列问题
 
--- 关系数据库，非关系数据库
+## 关系数据库，非关系数据库
 https://blog.csdn.net/oChangWen/article/details/53423301
 
--- acid
+## acid
 
--- 3nf范式
+## 3nf范式
 https://www.jianshu.com/p/477c6e9da100
 
--- MYSQL vs PSQL
+## MYSQL vs PSQL
+https://hackr.io/blog/postgresql-vs-mysql
 
--- MONGO VS DYNAMO
+
+## MONGO VS DYNAMO
 DynamoDB: DynamoDB uses tables, items and attributes as the core components that you work with. A table is a collection of items, and each item is a collection of attributes. DynamoDB uses primary keys to uniquely identify each item in a table and secondary indexes to provide more querying flexibility.
 
 MongoDB: MongoDB uses JSON-like documents to store schema-free data. In MongoDB, collections of documents do not require a predefined structure and columns can vary for different documents.
 
 MongoDB has many features of a relational database, including an expressive query language and strong consistency. Since it is schema-free, MongoDB allows you to create documents without having to create the structure for the document first.
 
--- 数据库基本问题
+## 数据库基本问题
 （一）什么是存储过程？有哪些优缺点？
 存储过程是一些预编译的SQL语句。
 
