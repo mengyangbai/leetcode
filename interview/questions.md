@@ -244,3 +244,63 @@ Interview Questions
     - What is MVC?
     - Give me an example on how to apply reflection.
     - What is the main difference between Cordova and Xamarin apps?   
+
+
+
+
+Hi Mengyang ,
+
+Congratulations on making to the final stage for AWS, the onsite!
+
+ 
+
+Information regarding your final interview (Onsite)
+
+    There will be 2 technical interviews which will be very similar to the first phone interview but more depth and breadth of tech. (Very similar to your 1st phone screen) – Will cover Dev Skills, Networking, Linux and Troubleshooting.
+    The other 2 interviews will be Leadership Principle based, applying previous experience in a question that starts with “Think of a time when”.  Leadership Principles is just Amazon’s way of saying values. (This is will be very similar to your second phone interview)
+    What you really have to demonstrate in this interview is being able to apply the Leadership principles to past work examples.
+    Showing things like DD (Dive Deep – which is where there might be a surface answer to a problem but you just want to know more so you go a bit deeper and solve the problem from its root).
+    L & BC (Learn and be curious – is having an example where you have gone outside of your normal duties or above and beyond to learn something just cause you were curious). This is a great indicator for success at Amazon, as we want engineers who want to know how things work even if they don’t need to. 
+
+ 
+
+More tips:
+
+ 
+
+    Make sure you speak clearly, concisely and answer the question directly
+    Try to make sure what you say is relevant to the role e.g. supporting customers showing you care
+    Have examples for the Leadership Principles and make sure you use STAR method and as the “R” “Result” have something quantifiable i.e. This saved the business $50, 000 OR this improved productivity by 150% etc, I’d also add F/D onto this as Follow up / Documentation e.g. what happened after the problem? Is there documentation so other people can do the same? Is the underlying problem actually solved even though it’s not in your role?
+    If you don’t have experience in a technology just be honest but demonstrate how you can bridge the gap!
+    Have questions ready at the end of the interviews to show your genuine interest in the role and AWS
+    CO – Customer Obsession is what we live and breathe, we exist because we give our customers our best 
+
+ 
+
+Leadership principles:
+
+https://www.amazon.jobs/en-gb/principles
+
+ 
+
+ 
+
+If you have any questions are want anything explained a little clearer feel free to email me on here.
+
+ 
+
+Best of luck!
+
+ 
+
+Thanks,
+
+ 
+
+Jane Xiaomin Chen
+
+Technical Sourcer
+
+E: chxiaomi@amazon.com
+
+ 
