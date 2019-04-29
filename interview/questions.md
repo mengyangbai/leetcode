@@ -1,6 +1,8 @@
 
 准备四个问题，展现leadership skills
 
+猜到谁问谁
+
 Cloud Engineer - Developer and Mobile Services
 https://www.amazon.jobs/en/jobs/773422/cloud-engineer-developer-and-mobile-services
 
