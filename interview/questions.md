@@ -1,4 +1,13 @@
 - 网络一系列问题
+-- OSI
+Physical
+Data Link
+Network
+Transport
+Session
+Presentation
+Application --- DNS
+
 -- REST API
 Representational state transfer, it is a set of rule that developer follow when they create their API
 A request is made of
@@ -10,13 +19,39 @@ The data (or body)
 -- AWS API GATE AWAY
 
 -- DNS
+Domain Name System -- From address to ip address
+http://www.ruanyifeng.com/blog/2016/06/dns.html
+
+-- HTTP
+Hyper Text Transfer Protocol
+Base on TCP/IP
+https://www.jianshu.com/p/80e25cb1d81a
+
+-- SSL
+Secure Sockets Layer
+HTTP+SSL = HTTPS
+https://www.jianshu.com/p/36b3b54b6c99
+
+-- SMTP
+Simple mail transfer protocal
+POP3 only recieve
+IMAP sync
+
+-- TCP
+Transmission Control Protocol
+https://www.jianshu.com/p/ef892323e68f
 
 
-HTTP, SSL, SMTP, TCP
 Exposure to security concepts / methodologies
 
 - linux一系列问题
-Experience with iperf, MTR, traceroute, dig
+Experience with iperf, MTR, traceroute, 
+
+-- dig
+通过dns协议查询ip地址信息
+A - address
+NS - name server
+
 
 - 项目一系列问题
 · Experience handling full application stacks from the OS up through custom applications
