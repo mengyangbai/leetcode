@@ -44,8 +44,18 @@ https://www.jianshu.com/p/ef892323e68f
 
 Exposure to security concepts / methodologies
 
+
 - linux一系列问题
-Experience with iperf, MTR, traceroute, 
+-- iperf
+Test network bandwidth
+https://www.jianshu.com/p/c25eb24e987e
+
+-- MTR
+PING - ICMP
+https://www.jianshu.com/p/802010d54849
+
+-- traceroute,
+https://www.jianshu.com/p/3806f1800d1e
 
 -- dig
 通过dns协议查询ip地址信息
@@ -92,6 +102,7 @@ Deliver Results: Leaders focus on the key inputs for their business and deliver 
 
 - java一系列问题
 Messaging and Queueing experience
+
 
 
 - 数据库一系列问题
