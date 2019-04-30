@@ -1,4 +1,4 @@
-
+https://blog.csdn.net/cselmu9/article/details/51366946
 准备四个问题，展现leadership skills
 
 
@@ -11,6 +11,7 @@
 ？？ 是否偶尔需要胶水语言来规范api，有的时候客户不一定用的对，我们是否会提供一些更好的建议。以后有成长吗。
 aws mobile hub
 cognito
+我已经有一个cert了，还想考一些别的cert，我入职以后，有没有公司鼓励去考一些cert的要求
 还有其他服务吗
 
 
@@ -147,6 +148,17 @@ JAVAfX可以移植，。
 
 * Deliver Results: Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. 关注与输出结果
 
+    "Are you willing to work on your feet for ten hours, four days a week?"
+     "How do you persuade people?"
+    "Tell the story of the last time you had to apologize to someone."
+    "Who was your most difficult customer?"
+    "What is the worst mistake you ever made?"
+     "If your direct manager was instructing you to do something you disagreed with, how would you handle it?"
+    "What is the most difficult situation you have ever faced in your life? How did you handle it?"
+    "What would you do if you saw someone being unsafe at work?"
+     "What would you do if somehow you misdirected 10,000 units of something?"
+     "Give me an example of a time when you were 75% of the way through a project, and you had to pivot strategy--how were you able to make that into a success story?"
+
 # AWS
 ## Experience handling full application stacks from the OS up through custom applications
 
@@ -184,6 +196,7 @@ MongoDB: MongoDB uses JSON-like documents to store schema-free data. In MongoDB,
 MongoDB has many features of a relational database, including an expressive query language and strong consistency. Since it is schema-free, MongoDB allows you to create documents without having to create the structure for the document first.
 
 ## 数据库基本问题
+https://blog.csdn.net/zhangliangzi/article/details/51884863
 https://zhuanlan.zhihu.com/p/62941196
 （一）什么是存储过程？有哪些优缺点？
 存储过程是一些预编译的SQL语句。
