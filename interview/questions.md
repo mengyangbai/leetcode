@@ -1,6 +1,20 @@
 
 准备四个问题，展现leadership skills
 
+
+提一个api lambda的问题，最大请求怎么办。
+
+有没有一些相应的cloud的有优惠,或者amazon prime的优惠，比如有人给我tickets，我去完成这些tickets，有没有可能直接通过这些service我给自己写一个分析系统来提升自己的表现。Cloud development
+
+我们在帮助客户的时候，会有上门的东西吗，远程服务会登陆到他们的系统里面吗，我们的aws的系统，还是说有类似AWS Systems Manager Session Manager这样的东西去登陆查看，以后有成长吗。
+
+？？ 是否偶尔需要胶水语言来规范api，有的时候客户不一定用的对，我们是否会提供一些更好的建议。以后有成长吗。
+aws mobile hub
+cognito
+还有其他服务吗
+
+
+
 猜到谁问谁
 
 Cloud Engineer - Developer and Mobile Services
@@ -90,30 +104,46 @@ NS - name server\
 # leadership 一系列问题
 
 * Customer Obsession: Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers. 专注于客户
+以前我们客户在货物到达中国境内以后，就无法在我们网站上获取物流信息。后来我们打通了物流
+
+
 
 * Ownership: Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job.” 有所有事情负责任的感觉
+提供了丢件提醒。我们在做软件的时候，对于他们使用的原始数据进行缓存，让他们保存。
 
 * Invent and Simplify: Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.” As we do new things, we accept that we may be misunderstood for long periods of time. 如果发现什么东西，你就发明个东西简化这个流程
+海关之前手动现在自动。
 
 * Are Right, A Lot: Leaders are right a lot. They have strong business judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs. 需要多方面的判断，然后确认这个事情如何
+有一次跟其它公司合作的时候，他们需要
+
+
 
 * Hire and Develop the Best: Leaders raise the performance bar with every hire and promotion. They recognise exceptional talent, and willingly move them throughout the organisation. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.在招人的时候选择最好的，给他们最合适的发展路线
+我再做那个软件的时候，发现了他以后有可能改进软件的需求，所以留了街口和文档。
 
 * Insist on the Highest Standards: Leaders have relentlessly high standards – many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed. 要坚持所有事情的最好标准
 
 * Think Big: Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.  从小见大，想的更长远
+JAVAfX可以移植，。
 
 * Bias for Action: Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking. 想事情要想多方面，考虑后果，综合计算
+可以用api gate way，没必要用nginx
 
 * Frugality: Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense. 节俭，用最小的代价去的最大的收获
 
 * Learn and Be Curious: Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them. 保持对所有事情的好奇心
 
+
+
 * Earn Trust: Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team’s body odor smells of perfume. They benchmark themselves and their teams against the best. 详细倾听，言语和善去赢的信任
 
 * Dive Deep: Leaders operate at all levels, stay connected to the details, audit frequently, and are sceptical when metrics and anecdote differ. No task is beneath them. 可以钻下去，关注细节
+我们发现作飞机的订单服务的时候，创建订单的速度非常的慢，而实际上一般来说用户创建订单是一个线形的的过程，跟飞机不同，所以我们优花了流程，从一开始就keep session，
 
-* Have Backbone; Disagree and Commit: Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly. 有底线，并且不同意而且也权力去做
+* Have Backbone; Disagree and Commit: Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly. 有底线，并且不同意而且也全力去做
+首先充分表达自己的意见，然后向左也全力去做
+
 
 * Deliver Results: Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. 关注与输出结果
 
@@ -154,6 +184,7 @@ MongoDB: MongoDB uses JSON-like documents to store schema-free data. In MongoDB,
 MongoDB has many features of a relational database, including an expressive query language and strong consistency. Since it is schema-free, MongoDB allows you to create documents without having to create the structure for the document first.
 
 ## 数据库基本问题
+https://zhuanlan.zhihu.com/p/62941196
 （一）什么是存储过程？有哪些优缺点？
 存储过程是一些预编译的SQL语句。
 
