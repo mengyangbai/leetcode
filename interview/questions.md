@@ -1,6 +1,9 @@
 https://blog.csdn.net/cselmu9/article/details/51366946
+https://blog.csdn.net/huangjin0507/article/details/77848386
+
 准备四个问题，展现leadership skills
 
+编两个国内故事，然后biggest mistake
 
 提一个api lambda的问题，最大请求怎么办。
 
@@ -180,6 +183,10 @@ https://www.programcreek.com/2009/02/overriding-and-overloading-in-java-with-exa
 https://blog.csdn.net/oChangWen/article/details/53423301
 
 ## acid
+* Atomicity
+* Consistency
+* Isolation
+* Durability
 
 ## 3nf范式
 https://www.jianshu.com/p/477c6e9da100
@@ -285,14 +292,6 @@ delete语句是dml,这个操作会放到rollback segement中,事务提交之后�
 第二范式（2NF）：数据库表中不存在非关键字段对任一候选关键字段的部分函数依赖（部分函数依赖指的是存在组合关键字中的某些字段决定非关键字段的情况），也即所有非关键字段都完全依赖于任意一组候选关键字。 
 第三范式（3NF）：在第二范式的基础上，数据表中如果不存在非关键字段对任一候选关键字段的传递函数依赖则符合第三范式。所谓传递函数依赖，指的是如 果存在"A → B → C"的决定关系，则C传递函数依赖于A。因此，满足第三范式的数据库表应该不存在如下依赖关系： 关键字段 → 非关键字段 x → 非关键字段y
 
-
-Interview Questions
-
-    - Can you run a .Net application on Linux?
-    - What is the difference between Sync and Async?
-    - What is MVC?
-    - Give me an example on how to apply reflection.
-    - What is the main difference between Cordova and Xamarin apps?   
 
 
 
