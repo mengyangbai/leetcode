@@ -1,13 +1,26 @@
 https://blog.csdn.net/cselmu9/article/details/51366946
+
+https://www.linkedin.com/in/mark-iveli-9b6a663/
+https://www.linkedin.com/in/baptistamarcelo/
+
+
 https://blog.csdn.net/huangjin0507/article/details/77848386
 
 数据清洗和数据内部系统开发，data trends power
 
 准备四个问题，展现leadership skills
 
-编两个国内故事，然后biggest mistake
 
-提一个api lambda的问题，最大请求怎么办。
+
+编一个国内故事，然后biggest mistake
+
+
+给mark 准备问题，
+讲cloud front，s3
+
+提一个api lambda的问题，最大请求怎么办。（优化）
+
+最刺激的过程，最有趣的工作。
 
 有没有一些相应的cloud的有优惠,或者amazon prime的优惠，比如有人给我tickets，我去完成这些tickets，有没有可能直接通过这些service我给自己写一个分析系统来提升自己的表现。Cloud development
 
@@ -18,7 +31,6 @@ aws mobile hub
 cognito
 我已经有一个cert了，还想考一些别的cert，我入职以后，有没有公司鼓励去考一些cert的要求
 还有其他服务吗
-最刺激的过程，最有趣的工作。
 
 最大错误，
 我再中国工作的时候，又一次做同样产品销售的比较。
