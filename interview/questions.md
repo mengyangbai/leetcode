@@ -1,6 +1,8 @@
 https://blog.csdn.net/cselmu9/article/details/51366946
 https://blog.csdn.net/huangjin0507/article/details/77848386
 
+数据清洗和数据内部系统开发，data trends power
+
 准备四个问题，展现leadership skills
 
 编两个国内故事，然后biggest mistake
@@ -16,6 +18,31 @@ aws mobile hub
 cognito
 我已经有一个cert了，还想考一些别的cert，我入职以后，有没有公司鼓励去考一些cert的要求
 还有其他服务吗
+最刺激的过程，最有趣的工作。
+
+最大错误，
+我再中国工作的时候，又一次做同样产品销售的比较。
+婴幼儿产品
+我们的是一个奶粉，他们的是一个奶粉，但是其实是有一个赠品的，
+而我当时负责数据抓出清楚和输出报告。一直到最后都没有发现这个事情。
+突然完成准备提交数据的时候，随手点进去了那个产品，发现了问题。
+于是我发现，产品不能单纯的通过网页内容来比较。本身是有问题的。我马上花时间进行了处理。
+数据也正确的反映到了公司手里
+我后来就跟老板建议进行double check，and cross check。来避免这个事情。
+同时我以后也养成了用笔记反复查询的好习惯。
+
+告诉一个老板让你干你却不认同的事情。
+不多
+我的技术上司，
+刚开始
+enbrace the change
+
+# STAR
+S - situaion
+T - Task
+A - Action
+R - Result
+addtional info
 
 
 
@@ -157,6 +184,11 @@ JAVAfX可以移植，。
     "Who was your most difficult customer?"
     "What is the worst mistake you ever made?"
      "If your direct manager was instructing you to do something you disagreed with, how would you handle it?"
+     这取决于这个事情有多不统一，
+     如果他是很细节的，问题也不大，那么我会描述我的观点给我的上司听。我会说这样做是不是更好。然后看上司什么看法，最后由上司做主。一旦做主以后，我会全心投入，看看是不是我做错了
+     如果是很大的问题，那么我会仔细讨论，然后可能会做一个ppt试图说服我的上司，而且我觉得大问题也不回有两个人来决定 ，在小组会议上我会表达我的所有观点，然后获得一个大家都接受的办法。一旦做主以后，我会全心投入，看看是不是我做错了
+     如果事情本身是违法的，那么我还是会表达我的意见，如果跟上面一样，我甚至会直接告诉他的上司，如果公司也坚持如此，我也许只能考虑退出那个公司了，不过在我目前的公司没见过，这种行为而且我相信亚马逊也不回作出这种事情。
+
     "What is the most difficult situation you have ever faced in your life? How did you handle it?"
     "What would you do if you saw someone being unsafe at work?"
      "What would you do if somehow you misdirected 10,000 units of something?"
