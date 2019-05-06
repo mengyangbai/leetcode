@@ -160,7 +160,8 @@ The server either does not recognize the request method, or it lacks the ability
 # cache rest API
 
 # All rest API action
-
+http://www.runoob.com/w3cnote/restful-architecture.html
+https://www.ibm.com/support/knowledgecenter/en/SSZLC2_7.0.0/com.ibm.commerce.webservices.doc/concepts/cwvrest.htm
 GET
 POST
 PUT
@@ -171,4 +172,4 @@ OPTIONS
 # DNS 深度研究
 linux dns file
 # aws.trainning
-三点开始
+这个不行，还是得看回acloud guru 和whiz lab
