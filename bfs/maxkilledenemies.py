@@ -41,7 +41,7 @@ a = Solution()
 print(a.maxKilledEnemies([["0","E","0","0"],["E","0","W","E"],["0","E","0","0"]]))
 
 class BetterSolution:
-    def maxKilledEnemies(self, grid: List[List[str]]) -> int:
+    def maxKilledEnemies(self, grid: [[str]]) -> int:
         # intuition
         # dfs until hit wall, but since the bomb never switch row/columns
         # we can use wall as partition
