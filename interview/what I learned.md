@@ -169,5 +169,6 @@ DELETE
 OPTIONS
 
 # DNS 深度研究
-
+linux dns file
 # aws.trainning
+三点开始
