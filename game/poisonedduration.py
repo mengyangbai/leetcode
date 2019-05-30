@@ -6,7 +6,7 @@ class Solution(object):
         return ans
 
 class BetterSolution:
-    def findPoisonedDuration(self, timeSeries: List[int], duration: int) -> int:
+    def findPoisonedDuration(self, timeSeries: [int], duration: int) -> int:
         
         time = 0
         
