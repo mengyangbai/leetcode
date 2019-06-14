@@ -3,8 +3,8 @@ class Solution:
         n=len(nums)
         l,r=0,n-1
         while l<r:
-            mid=(l+r+1)/2
-            if nums[mid]-nums[0]-mid>=k:#not the result index,result is in left part.
+            mid=(l+r+1)//2
+            if nums[mid]-nums[0]-mid>=k:
                 r=mid-1
             else:
                 l=mid
