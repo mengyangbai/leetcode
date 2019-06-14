@@ -1,5 +1,5 @@
 class Solution:
-    def optimalDivision(self, nums: List[int]) -> str:
+    def optimalDivision(self, nums: [int]) -> str:
         
         if not nums:
             return None
