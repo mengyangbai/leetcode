@@ -112,7 +112,6 @@ class BestSolution:
                 self.candidates[cell[0]][cell[1]].add(value)
         
         def _solveSudoku(updated_cells = [], updated_candidates = []):
-            unique_candidates = []
             while len(self.unsolved_cells) > 0:
                 # Check validality.
                 for cell in self.unsolved_cells:
