@@ -8,7 +8,7 @@ class Solution:
         return True
 
 class BestSolution:
-    def isIdealPermutation(self, A: List[int]) -> bool:
+    def isIdealPermutation(self, A: [int]) -> bool:
         for i, n in enumerate(A):
             if abs(i-n) > 1: return False
         return True
