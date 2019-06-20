@@ -18,7 +18,7 @@ class Solution:
         return cnt
 
 class BestSolution:
-    def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
+    def numSubarrayProductLessThanK(self, nums: [int], k: int) -> int:
         if k <= 1:
             return 0
         product = 1
