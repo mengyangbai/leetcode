@@ -47,7 +47,7 @@ class Solution(object):
                 
 
 class BetterSolution:
-    def spellchecker(self, wordlist: List[str], queries: List[str]) -> List[str]:
+    def spellchecker(self, wordlist: [str], queries: [str]) -> [str]:
         
         d = dict()
         d1 = dict()
